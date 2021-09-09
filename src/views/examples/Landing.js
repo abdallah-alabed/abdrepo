@@ -25,6 +25,10 @@ import team1 from "assets/img/theme/team-1-800x800.jpg";
 import team2 from "assets/img/theme/team-2-800x800.jpg";
 import team3 from "assets/img/theme/team-3-800x800.jpg";
 import team4 from "assets/img/theme/team-4-800x800.jpg";
+import wall from "assets/img/theme/abd.jpg"
+import sc1 from "assets/img/theme/sc1.PNG"
+import sc2 from "assets/img/theme/sc2.PNG"
+
 
 // reactstrap components
 import {
@@ -81,38 +85,13 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                        Ideas Unleashed{" "}
+                        <span>Let's Take a Tour</span>
                       </h1>
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                       I am a tech enthusiast which drives me harder every day to explore and learn in this outstanding field!
+                       here are some standards we work with !
                       </p>
-                      <div className="btn-wrapper">
-                        <Button
-                          className="btn-icon mb-3 mb-sm-0"
-                          color="info"
-                          href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-landing-page"
-                        >
-                          <span className="btn-inner--icon mr-1">
-                            <i className="fa fa-code" />
-                          </span>
-                          <span className="btn-inner--text">Components</span>
-                        </Button>
-                        <Button
-                          className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
-                          color="default"
-                          href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
-                        >
-                          <span className="btn-inner--icon mr-1">
-                            <i className="ni ni-cloud-download-95" />
-                          </span>
-                          <span className="btn-inner--text">
-                            Download React
-                          </span>
-                        </Button>
-                      </div>
                     </Col>
                   </Row>
                 </div>
@@ -148,32 +127,11 @@ class Landing extends React.Component {
                             <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                            Innovative
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            The ideas that i deliver and unique and modern that would be a potential hit in the market!
                           </p>
-                          <div>
-                            <Badge color="primary" pill className="mr-1">
-                              design
-                            </Badge>
-                            <Badge color="primary" pill className="mr-1">
-                              system
-                            </Badge>
-                            <Badge color="primary" pill className="mr-1">
-                              creative
-                            </Badge>
-                          </div>
-                          <Button
-                            className="mt-4"
-                            color="primary"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
-                          >
-                            Learn more
-                          </Button>
                         </CardBody>
                       </Card>
                     </Col>
@@ -184,32 +142,11 @@ class Landing extends React.Component {
                             <i className="ni ni-istanbul" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                            Build Something
+                            Easy to Use
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            Most of the projects are all-ages userfriendly while still directing a certain audience of people.
                           </p>
-                          <div>
-                            <Badge color="success" pill className="mr-1">
-                              business
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              vision
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              success
-                            </Badge>
-                          </div>
-                          <Button
-                            className="mt-4"
-                            color="success"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
-                          >
-                            Learn more
-                          </Button>
                         </CardBody>
                       </Card>
                     </Col>
@@ -220,32 +157,11 @@ class Landing extends React.Component {
                             <i className="ni ni-planet" />
                           </div>
                           <h6 className="text-warning text-uppercase">
-                            Prepare Launch
+                            Interactive
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            Our website are interactive, fun and engaging so the user won't feel the boredom.
                           </p>
-                          <div>
-                            <Badge color="warning" pill className="mr-1">
-                              marketing
-                            </Badge>
-                            <Badge color="warning" pill className="mr-1">
-                              product
-                            </Badge>
-                            <Badge color="warning" pill className="mr-1">
-                              launch
-                            </Badge>
-                          </div>
-                          <Button
-                            className="mt-4"
-                            color="warning"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
-                          >
-                            Learn more
-                          </Button>
                         </CardBody>
                       </Card>
                     </Col>
@@ -254,8 +170,8 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
-          <section className="section section-lg">
-            <Container>
+          {/* <section className="section section-lg"> */}
+            {/* <Container>
               <Row className="row-grid align-items-center">
                 <Col className="order-md-2" md="6">
                   <img
@@ -329,8 +245,8 @@ class Landing extends React.Component {
                   </div>
                 </Col>
               </Row>
-            </Container>
-          </section>
+            </Container> */}
+          {/* </section> */}
           <section className="section bg-secondary">
             <Container>
               <Row className="row-grid align-items-center">
@@ -338,7 +254,7 @@ class Landing extends React.Component {
                   <Card className="bg-default shadow border-0">
                     <CardImg
                       alt="..."
-                      src={cardImg}
+                      src={sc1}
                       top
                     />
                     <blockquote className="card-blockquote">
@@ -359,28 +275,26 @@ class Landing extends React.Component {
                         />
                       </svg>
                       <h4 className="display-3 font-weight-bold text-white">
-                        Design System
+                        Stars Kindergarten
                       </h4>
                       <p className="lead text-italic text-white">
-                        The Arctic Ocean freezes every winter and much of the
-                        sea-ice then thaws every summer, and that process will
-                        continue whatever happens.
+                       One of our first projects which aims to have a very effective educational 
+                       content for the parents and have a fun collection of games for the kids.
                       </p>
                     </blockquote>
                   </Card>
                 </Col>
                 <Col md="6">
                   <div className="pl-md-5">
-                    <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5">
+                    {/* <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5">
                       <i className="ni ni-settings" />
-                    </div>
-                    <h3>Our customers</h3>
+                    </div> */}
+                    <h3>Attention to Details</h3>
                     <p className="lead">
-                      Don't let your uses guess by attaching tooltips and
-                      popoves to any element. Just make sure you enable them
-                      first via JavaScript.
+                      When you go through this website you will see how much attention we paid for the small 
+                      details from game coding and how easy it is to use for all generations.
                     </p>
-                    <p>
+                    {/* <p>
                       The kit comes with three pre-built pages to help you get
                       started faster. You can change the text and images and
                       you're good to go.
@@ -396,7 +310,7 @@ class Landing extends React.Component {
                       onClick={e => e.preventDefault()}
                     >
                       A beautiful UI Kit for impactful websites
-                    </a>
+                    </a> */}
                   </div>
                 </Col>
               </Row>
@@ -405,12 +319,12 @@ class Landing extends React.Component {
           <section className="section pb-0 bg-gradient-warning">
             <Container>
               <Row className="row-grid align-items-center">
-                <Col className="order-lg-2 ml-lg-auto" md="6">
-                  <div className="position-relative pl-md-5">
+                <Col className="order-lg-3 ml-lg-auto" md="6">
+                  <div className="position-relative pl-md-1">
                     <img
                       alt="..."
                       className="img-center img-fluid"
-                      src={ill2}
+                      src={sc2}
                     />
                   </div>
                 </Col>
@@ -424,22 +338,20 @@ class Landing extends React.Component {
                     <div className="pl-4">
                       <h4 className="display-3 text-white">Modern Interface</h4>
                       <p className="text-white">
-                        The Arctic Ocean freezes every winter and much of the
-                        sea-ice then thaws every summer, and that process will
-                        continue whatever.
+                        We Create Different Yet Amazing Design For Our Websites.
                       </p>
                     </div>
                   </div>
                   <Card className="shadow shadow-lg--hover mt-5">
-                    <CardBody>
-                      <div className="d-flex px-3">
+                    {/* <CardBody> */}
+                      {/* <div className="d-flex px-3">
                         <div>
                           <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
                             <i className="ni ni-satisfied" />
                           </div>
-                        </div>
+                        </div> */}
                         <div className="pl-4">
-                          <h5 className="title text-success">
+                          {/* <h5 className="title text-success">
                             Awesome Support
                           </h5>
                           <p>
@@ -453,10 +365,10 @@ class Landing extends React.Component {
                             onClick={e => e.preventDefault()}
                           >
                             Learn more
-                          </a>
+                          </a> */}
                         </div>
-                      </div>
-                    </CardBody>
+                      {/* </div> */}
+                    {/* </CardBody> */}
                   </Card>
                   <Card className="shadow shadow-lg--hover mt-5">
                     <CardBody>
@@ -468,20 +380,12 @@ class Landing extends React.Component {
                         </div>
                         <div className="pl-4">
                           <h5 className="title text-warning">
-                            Modular Components
+                            Amble
                           </h5>
                           <p>
-                            The Arctic Ocean freezes every winter and much of
-                            the sea-ice then thaws every summer, and that
-                            process will continue whatever.
+                          Amble is an example of one of the projects we are currently developing,
+                           it allows the user to share their travel experiences and recommend trips for other people!
                           </p>
-                          <a
-                            className="text-warning"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
-                          >
-                            Learn more
-                          </a>
                         </div>
                       </div>
                     </CardBody>
@@ -510,24 +414,25 @@ class Landing extends React.Component {
             <Container>
               <Row className="justify-content-center text-center mb-lg">
                 <Col lg="8">
-                  <h2 className="display-3">The amazing Team</h2>
+                  <h2 className="display-3">Who Am I?</h2>
                   <p className="lead text-muted">
-                    According to the National Oceanic and Atmospheric
-                    Administration, Ted, Scambos, NSIDClead scentist, puts the
-                    potentially record maximum.
+                    I started as a mechatronics engineer but fell in love with the programming world as it alowed me to showcase my ideas the way i wanted them,
+                    so here i am entering the programming world from its biggest doors, so
+                    I really appreciate your interest in me and my products! hopefully you liked what you see!
+                    I can guarantee more innovation and more amazing projects so keep an eye on us!
                   </p>
                 </Col>
               </Row>
               <Row>
-                <Col className="mb-5 mb-lg-0" lg="3" md="6">
+                <Col className="mb-5 mb-lg-0" lg="12" md="6">
                   <div className="px-4">
                     <img
                       alt="..."
                       className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
-                      src={team1}
-                      style={{ width: "200px" }}
+                      src={wall}
+                      style={{ width: "300px", height: "300px" }}
                     />
-                    <div className="pt-4 text-center">
+                    {/* <div className="pt-4 text-center">
                       <h5 className="title">
                         <span className="d-block mb-1">Ryan Tompson</span>
                         <small className="h6 text-muted">Web Developer</small>
@@ -654,13 +559,13 @@ class Landing extends React.Component {
                       className="rounded-circle img-center img-fluid shadow shadow-lg--hover"
                       src={team4}
                       style={{ width: "200px" }}
-                    />
-                    <div className="pt-4 text-center">
+                    /> */}
+                    <div className="pt-3 text-center">
                       <h5 className="title">
-                        <span className="d-block mb-1">John Doe</span>
+                        <span className="d-block mb-1">Abdallah Alabed</span>
                         <small className="h6 text-muted">Founder and CEO</small>
                       </h5>
-                      <div className="mt-3">
+                      <div className="mt-6">
                         <Button
                           className="btn-icon-only rounded-circle"
                           color="success"
@@ -692,82 +597,9 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
-          <section className="section section-lg pt-0">
-            <Container>
-              <Card className="bg-gradient-warning shadow-lg border-0">
-                <div className="p-5">
-                  <Row className="align-items-center">
-                    <Col lg="8">
-                      <h3 className="text-white">
-                        We made website building easier for you.
-                      </h3>
-                      <p className="lead text-white mt-3">
-                        I will be the leader of a company that ends up being
-                        worth billions of dollars, because I got the answers. I
-                        understand culture.
-                      </p>
-                    </Col>
-                    <Col className="ml-lg-auto" lg="3">
-                      <Button
-                        block
-                        className="btn-white"
-                        color="default"
-                        href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
-                        size="lg"
-                      >
-                        Download React
-                      </Button>
-                    </Col>
-                  </Row>
-                </div>
-              </Card>
-            </Container>
-          </section>
           <section className="section section-lg bg-gradient-default">
             <Container className="pt-lg pb-300">
-              <Row className="text-center justify-content-center">
-                <Col lg="10">
-                  <h2 className="display-3 text-white">Build something</h2>
-                  <p className="lead text-white">
-                    According to the National Oceanic and Atmospheric
-                    Administration, Ted, Scambos, NSIDClead scentist, puts the
-                    potentially record low maximum sea ice extent tihs year down
-                    to low ice.
-                  </p>
-                </Col>
-              </Row>
-              <Row className="row-grid mt-5">
-                <Col lg="4">
-                  <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                    <i className="ni ni-settings text-primary" />
-                  </div>
-                  <h5 className="text-white mt-3">Building tools</h5>
-                  <p className="text-white mt-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </Col>
-                <Col lg="4">
-                  <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                    <i className="ni ni-ruler-pencil text-primary" />
-                  </div>
-                  <h5 className="text-white mt-3">Grow your market</h5>
-                  <p className="text-white mt-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </Col>
-                <Col lg="4">
-                  <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                    <i className="ni ni-atom text-primary" />
-                  </div>
-                  <h5 className="text-white mt-3">Launch time</h5>
-                  <p className="text-white mt-3">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                </Col>
-              </Row>
+            <h3 className="text-white text-center">We Would Love To Hear Your Thoughts About Us! Please Fill The Form Below</h3>
             </Container>
             {/* SVG separator */}
             <div className="separator separator-bottom separator-skew zindex-100">
@@ -792,9 +624,9 @@ class Landing extends React.Component {
                 <Col lg="8">
                   <Card className="bg-gradient-secondary shadow">
                     <CardBody className="p-lg-5">
-                      <h4 className="mb-1">Want to work with us?</h4>
+                      <h4 className="mb-1">Review Us</h4>
                       <p className="mt-0">
-                        Your project is very important to us.
+                        Your Thoughts are very important to us.
                       </p>
                       <FormGroup
                         className={classnames("mt-5", {
@@ -861,9 +693,8 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
-          <Download />
         </main>
-        <CardsFooter />
+        
       </>
     );
   }
