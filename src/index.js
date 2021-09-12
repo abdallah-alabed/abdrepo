@@ -32,13 +32,14 @@ import Profile from "views/examples/Profile.js";
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
+    <Route path="/" exact render={props => < profile {...props} />}   />
       <Route
         path="/landing-page"
         exact
         render={props => <Landing {...props} />}
       />
       <Route
-        path="/"
+        path="/profile-page"
         exact
         render={props => <Profile {...props} />}
       />
